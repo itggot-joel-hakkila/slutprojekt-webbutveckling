@@ -10,11 +10,21 @@
 <body>
     <div class="container">
         <header>
-                <i class="material-icons md-48">menu</i>
+        <span class="hamburger" onclick="openNav()">
+            <i class="material-icons md-48">menu</i>
+        </span>
         </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Start</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+            <a href="#">Webshop</a>
+        </div>
         <main>
             <%=yield%>
         </main>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
