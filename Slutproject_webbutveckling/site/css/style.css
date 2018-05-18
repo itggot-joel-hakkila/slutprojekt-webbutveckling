@@ -79,5 +79,6 @@ header{
 } */
 
 .banner{
-    
-}
+    width: 100%px;
+    height: 710px;
+    background: url('../img/banner.jpg') -600px -150px;
